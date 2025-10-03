@@ -17,9 +17,8 @@ h2 {
   justify-content: center;
 }
 
-table{
-  text-transform: uppercase;
-  border-collapse: separate;
+table, th,td {
+  border-collapse: collapse;
 }
 
 h3,
@@ -27,6 +26,7 @@ th {
   font-size: 56px;
   font-weight: bold;
   font-family: economica;
+  padding-bottom: 16px;
 }
 
 td {
@@ -34,6 +34,7 @@ td {
   font-weight: bold;
   font-family: Raleway;
   color: #675e54;
+  padding-bottom: 8px;
 }
 
 /* ÜBERSCHRIFTEN ENDE*/
@@ -125,7 +126,7 @@ td {
 
 .menu-section {
   width: auto;
-  padding: 0 160px;
+  padding: 120px 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,6 +142,7 @@ td {
   display: flex;
   justify-content: flex-start;
   gap: 80px;
+  align-items: center;
 }
 
 .spicy {
@@ -150,6 +152,7 @@ td {
   flex-direction: row-reverse;
   justify-content: flex-start;
   gap: 80px;
+  align-items: center;
 }
 
 .shio {
@@ -158,6 +161,7 @@ td {
   display: flex;
   justify-content: flex-start;
   gap: 80px;
+  align-items: center;
 }
 
 /* MENU END */

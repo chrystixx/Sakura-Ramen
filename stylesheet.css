@@ -17,6 +17,7 @@ h1{
     display: flex;
     justify-content: center;
     width: 1440px;
+    height: 100vh;
 }
 
 .flower{
@@ -29,6 +30,7 @@ h1{
 .top-con{
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 .headline{
@@ -67,7 +69,9 @@ h1{
     align-items: center;
 }
 
-.order-cont{
-
+.order-con{
+    position: absolute;
+    margin-top: 120px;
+    
 }
 

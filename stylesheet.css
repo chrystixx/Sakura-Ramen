@@ -3,6 +3,15 @@
   font-family: Raleway;
 }
 
+span{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin: 8px 0 64px 0;
+}
+
 h1 {
   font-size: 96px;
   font-weight: bold;
@@ -15,6 +24,7 @@ h2 {
   margin-bottom: 64px;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 table, th,td {
@@ -165,5 +175,46 @@ td {
 }
 
 /* MENU END */
+/* LOCATION START */
+
+.location-section{
+  padding-top: 120px;
+}
+
+.location-section h2{
+  margin-bottom: 8px;
+}
+
+.googlemaps{
+  width: 100%;
+  height: 600px;
+}
+
+/*FOOTER START*/
+footer{
+  display: flex;
+  align-items: center;
+  background-color: #0a141e;
+  height: 144px;
+  justify-content: space-between;
+  padding: 0  160px;
+}
+
+.footer-img{
+  height: 44px;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+
+}
+
+.footer-links img{
+  width: 40px;
+}
+
 
 
